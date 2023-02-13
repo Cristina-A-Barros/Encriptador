@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto Alura</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="caja">
+
+            <img id="logoAlura" src="alura.png" alt="Logo de Alura">
+            <h1 id="titulo-principal">Encriptador de Texto Alura</h1>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="entrada">
+
+            <textarea id="texto" type="text" onkeypress="return soloMinusc(event);" cols="40" rows="8"
+                placeholder="Ingrese el texto aquí"></textarea>
+            <h2 id="indicaciones"><span style="color: #FF0000;">&#9888;</span> Solo letras minúsculas y sin acentos</h2>
+            <button id="botonRojo" type="button" onclick="btnEncriptar(); campoVacio()">ENCRIPTAR</button>
+            <button id="botonAzul" type="button" onclick="btnDesencriptar()">DESENCRIPTAR</button>
+
+        </section>
+
+        <section class="salida">
+
+            <img id="lentes" src="lentes.png" alt="Imagen de unos lentes">
+            <textarea id="resultado" type="text" cols="40" rows="8"></textarea>
+            <button id="botonCopiar" type="button" onclick="copiarTxt()">COPIAR</button>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>&copy 2022 Cristina A. Barros • Todos los derechos reservados.</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

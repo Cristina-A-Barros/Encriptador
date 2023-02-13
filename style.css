@@ -1,0 +1,145 @@
+* {
+
+    font-family: 'Roboto Mono', monospace;
+    background-image: url("fondo.png");
+    background-attachment: fixed;
+
+}
+
+#logoAlura {
+
+    max-width: 100%;
+    float: left;
+    padding: 2% 0;
+
+}
+
+#titulo-principal {
+
+    float: inherit;
+    padding: 5%;
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    font-size: 3em;
+    color: #ffffff;
+
+}
+
+.entrada {
+
+    float: left;
+    margin-top: 5%;
+    margin-left: 15%;
+
+}
+
+.entrada #texto {
+
+    border: 3px solid #42C920;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background: inherit;
+
+}
+
+::placeholder {
+
+    font-size: 16px;
+    font-weight: lighter;
+    color: #ffffff;
+
+}
+
+#indicaciones {
+
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+.entrada #botonRojo {
+
+    min-width: 100px;
+    border-radius: 15px;
+    border-width: 4px;
+    border-color: #69140f;
+    background: #c21d17;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.entrada #botonAzul {
+
+    min-width: 100px;
+    border-radius: 15px;
+    border-width: 4px;
+    border-color: #0303b5;
+    background: #2527ff;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 75px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.salida {
+
+    float: right;
+    margin-top: 5%;
+    margin-right: 15%;
+
+}
+
+#lentes {
+
+    width: 450px;
+
+}
+
+.salida #resultado {
+
+    border: 3px solid #42C920;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background: inherit;
+
+}
+
+.salida #botonCopiar {
+
+    min-width: 100px;
+    border-radius: 15px;
+    border-width: 5px;
+    border-color: #005200;
+    background: #4ea93b;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 50px;
+    margin-top: 35px;
+    cursor: pointer;
+
+}
+
+footer {
+
+    font-size: small;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
